@@ -1,0 +1,3 @@
+#!/bin/sh
+ /root/hello-jenkins/node_modules/.bin/mocha /root/hello-jenkins/test/test.js
+
