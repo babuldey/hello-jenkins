@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh root@54.175.37.7 <<EOF
+ssh -t -t root@54.175.37.7 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
